@@ -52,11 +52,3 @@ class Consumo:
 		self.monto = monto
 		self.fecha_c = fecha_c
 		self.id_ec = id_ec
-
-billetera = BilleteraElectronica("José Ignacio","Palma Misle",25071386,1234)
-billetera.recargar(250,"02/02/2017",1234)
-billetera.recargar(250,"02/02/2017",4321)
-billetera.consumir(400,"02/02/2017",4321,1234)
-print billetera.miSaldo()
-print billetera.mostrar_recargas()
-print billetera.mostrar_consumos()
